@@ -1,6 +1,6 @@
 <JZML>
 <PROJECT version="5030" width="568" height="276" osc_target="-1" midi_target="0" kbmouse_target="-1" skin="Shaded"/>
-<WINDOW class="JAZZINTERFACE" text="3-leadGuits" x="0" y="0" width="568" height="276" state="1" group="0" font="tahoma,11,0" >
+<WINDOW class="JAZZINTERFACE" text="3-leadGuits" x="0" y="0" width="568" height="276" state="0" group="0" font="tahoma,11,0" >
 <WINDOW class="Container" text="leadGuitsPlugins" x="7" y="16" width="552" height="260" id="56" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="1596013" label="1" tabbar="1" meta="1">
 <WINDOW class="Tab" text="multiball" x="0" y="0" width="536" height="212" id="1" state="0" group="0" font="tahoma,11,0" >
 <WINDOW class="Multiball" text="reverbfilter" x="75" y="9" width="195" height="195" id="37" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-1" kbmouse_target="-2" capture="1" color="1605444" cursor="1" ephemere="0" grid="0" grid_steps="1,1" label="0" multicolor="0" multilabel="0" nbr="1" physic="2" polyphony="0" zoom="1.000000">
@@ -17,10 +17,10 @@
 <VARIABLE name="hold=0" send="0" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/reverbfilter/hold" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 <VARIABLE name="holdX=0" send="0" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/reverbfilter/holdX" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 <VARIABLE name="holdY=0" send="0" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/reverbfilter/holdY" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
-<VARIABLE name="xMin=" value="0" send="0" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/reverbfilter/xMin" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
-<VARIABLE name="xRange=" value="1" send="0" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/reverbfilter/xRange" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
-<VARIABLE name="yMin=" value="0" send="0" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/reverbfilter/yMin" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,13476,81" kbmouse_scale="0,1,0,1"/>
-<VARIABLE name="yRange=" value="1" send="0" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/reverbfilter/yRange" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="xMin=" value="0.000000" send="0" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/reverbfilter/xMin" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="xRange=" value="1.000000" send="0" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/reverbfilter/xRange" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="yMin=" value="0.000000" send="0" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/reverbfilter/yMin" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,13476,81" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="yRange=" value="1.000000" send="0" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/reverbfilter/yRange" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 <VARIABLE name="fSpeed=" value="0.050000" send="0" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/reverbfilter/fSpeed" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 </WINDOW>
 <WINDOW class="CustomButton" text="friction" x="10" y="9" width="65" height="54" id="39" state="241" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-1" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="865343,1596013" label_off="stop" label_on="go" outline="1">
@@ -49,7 +49,7 @@
 leadGuitsPlugins.dryWet.x = reverbfilter.y/(1/reverbfilter.yRange)+reverbfilter.yMin; " trigger_script="reverbfilter.y" trigger_type="0" trigger="1" clock="0" clock_div="4" osc_message="/leadGuitsPlugins/dryWet/set_dryWet" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
 </WINDOW>
 <WINDOW class="CustomButton" text="reverbDevice" x="11" y="11" width="48" height="48" id="4" state="241" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="865343,1596013" label_off="off" label_on="on" outline="1">
-<PARAM name="x=" value="1.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/reverbDevice/x" midi_target="0" midi_trigger="1" midi_message="0xB1,0xB1,21,21" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/reverbDevice/x" midi_target="0" midi_trigger="1" midi_message="0xB1,0xB1,21,21" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 <VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/reverbDevice/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 </WINDOW>
 <WINDOW class="Knob" text="diffuse" x="477" y="63" width="48" height="63" id="5" state="5" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="865343,5141375" cursor="0" grid="0" grid_steps="1" label="1" mode="0" physic="1" precision="2" type="0" unit="" value="0">
@@ -79,7 +79,7 @@ leadGuitsPlugins.dryWet.x = reverbfilter.y/(1/reverbfilter.yRange)+reverbfilter.
 <VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/eqDevice/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 </WINDOW>
 <WINDOW class="Knob" text="eqGain" x="462" y="110" width="64" height="92" id="8" state="5" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="8344349,5141375" cursor="0" grid="0" grid_steps="1" label="1" mode="0" physic="1" precision="2" type="0" unit="" value="1">
-<PARAM name="x=" value="0.290000" send="17" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/eqGain/x" midi_target="0" midi_trigger="1" midi_message="0xB1,0xB1,13,13" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<PARAM name="x=" value="0.330000" send="17" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/eqGain/x" midi_target="0" midi_trigger="1" midi_message="0xB1,0xB1,13,13" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 <PARAM name="z=" value="0.000000" send="16" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/eqGain/z" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 <VARIABLE name="value=x" send="0" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/eqGain/value" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 <VARIABLE name="attraction=1" send="0" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/eqGain/attraction" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
@@ -99,12 +99,12 @@ leadGuitsPlugins.freq2.x = reverbfilter.x/(1/reverbfilter.xRange)+reverbfilter.x
 leadGuitsPlugins.dryWet.x = reverbfilter.y/(1/reverbfilter.yRange)+reverbfilter.yMin; " trigger_script="reverbfilter.x" trigger_type="0" trigger="1" clock="0" clock_div="4" osc_message="/leadGuitsPlugins/freq2/set_freq2" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
 </WINDOW>
 <WINDOW class="Switches" text="eqFilterToggle" x="67" y="161" width="388" height="41" id="45" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" capture="1" color="6515839,8341250" column="8" label="0" multicolor="0" multilabel="1" paint="0" radio="0" row="1">
-<PARAM name="x=" value="0.000000,1.000000,1.000000,0.000000,0.000000,0.000000,0.000000,0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/eqFilterToggle/x" midi_target="0" midi_trigger="1" midi_message="0xB1,0xB1,101,108" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<PARAM name="x=" value="0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,1.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/eqFilterToggle/x" midi_target="0" midi_trigger="1" midi_message="0xB1,0xB1,101,108" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 <VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/eqFilterToggle/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 <SCRIPT name="setLabels()" script="setattribute(eqFilterToggle,'labels',{'1', '2', '3', '4', '5', '6', '7', '8'}); // assign menu tune labels" trigger_script="" trigger_type="5" trigger="1" clock="0" clock_div="4" osc_message="/leadGuitsPlugins/eqFilterToggle/setLabels" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
 </WINDOW>
 <WINDOW class="CustomButton" text="adaptQ" x="462" y="8" width="64" height="48" id="46" state="241" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="865343,1596013" label_off="adaptQ" label_on="adaptQ" outline="1">
-<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/adaptQ/x" midi_target="0" midi_trigger="1" midi_message="0xB1,0xB1,14,14" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<PARAM name="x=" value="1.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/adaptQ/x" midi_target="0" midi_trigger="1" midi_message="0xB1,0xB1,14,14" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 <VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/leadGuitsPlugins/adaptQ/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 </WINDOW>
 <WINDOW class="Knob" text="eq7Freq" x="357" y="14" width="48" height="48" id="52" state="5" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="865343,1596013" cursor="0" grid="0" grid_steps="1" label="0" mode="0" physic="1" precision="3" type="0" unit="" value="0">
@@ -465,7 +465,7 @@ if (masterSwitch.x[1] == 1)
 " trigger_script="masterSwitch.x" trigger_type="0" trigger="1" clock="0" clock_div="4" osc_message="/beatPlugins/set_beat_multi" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
 </WINDOW>
 </WINDOW>
-<WINDOW class="JAZZINTERFACE" text="master" x="0" y="0" width="568" height="276" id="2" state="0" group="0" font="tahoma,11,0" >
+<WINDOW class="JAZZINTERFACE" text="master" x="0" y="0" width="568" height="276" id="2" state="1" group="0" font="tahoma,11,0" >
 <WINDOW class="Container" text="masterPlugins" x="10" y="10" width="551" height="258" id="3" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="1596013" label="1" tabbar="1" meta="1">
 <WINDOW class="Tab" text="eq" x="0" y="0" width="535" height="210" id="4" state="1" group="0" font="tahoma,11,0" >
 <WINDOW class="CustomButton" text="eqDevice" x="11" y="153" width="48" height="48" id="4" state="241" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="865343,1596013" label_off="off" label_on="on" outline="1">
@@ -623,13 +623,13 @@ if (masterSwitch.x[1] == 1)
 <VARIABLE name="speed=1" send="0" osc_target="0" osc_trigger="1" osc_message="/masterPlugins/compThresh/speed" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 </WINDOW>
 <WINDOW class="CustomButton" text="compDevice" x="15" y="15" width="48" height="48" id="4" state="241" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="865343,1596013" label_off="off" label_on="on" outline="1">
-<PARAM name="x=" value="1.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/masterPlugins/compDevice/x" midi_target="0" midi_trigger="1" midi_message="0xB1,0xB1,51,51" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/masterPlugins/compDevice/x" midi_target="0" midi_trigger="1" midi_message="0xB1,0xB1,51,51" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 <VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/masterPlugins/compDevice/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 </WINDOW>
 </WINDOW>
 <WINDOW class="Tab" text="multiband" x="0" y="0" width="535" height="210" id="1" state="0" group="0" font="tahoma,11,0" >
 <WINDOW class="CustomButton" text="multiDevice" x="7" y="9" width="48" height="48" id="1" state="241" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="865343,1596013" label_off="off" label_on="on" outline="1">
-<PARAM name="x=" value="1.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/masterPlugins/multiDevice/x" midi_target="0" midi_trigger="1" midi_message="0xB1,0xB1,60,60" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/masterPlugins/multiDevice/x" midi_target="0" midi_trigger="1" midi_message="0xB1,0xB1,60,60" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 <VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/masterPlugins/multiDevice/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 </WINDOW>
 <WINDOW class="Knob" text="multiLoCross" x="65" y="134" width="48" height="63" id="2" state="5" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="865343,1596013" cursor="0" grid="0" grid_steps="1" label="0" mode="0" physic="1" precision="3" type="0" unit="" value="1">
@@ -775,7 +775,7 @@ if (masterSwitch.x[1] == 1)
 <VARIABLE name="speed=1" send="0" osc_target="0" osc_trigger="1" osc_message="/masterPlugins/limGain/speed" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 </WINDOW>
 <WINDOW class="CustomButton" text="limDevice" x="18" y="13" width="48" height="48" id="3" state="241" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="865343,1596013" label_off="off" label_on="on" outline="1">
-<PARAM name="x=" value="1.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/masterPlugins/limDevice/x" midi_target="0" midi_trigger="1" midi_message="0xB1,0xB1,71,71" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/masterPlugins/limDevice/x" midi_target="0" midi_trigger="1" midi_message="0xB1,0xB1,71,71" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 <VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/masterPlugins/limDevice/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 </WINDOW>
 </WINDOW>
@@ -817,7 +817,6 @@ else if (masterSwitch.x[6] == 1) { set_tone(); } // tone114
 //--------------------------------------------------------------
 // master limiter
 masterPlugins.limDevice.x = 1; // limiter on
-
 masterPlugins.limGain.x = 0.84; // 16.4dB
 //--------------------------------------------------------------
 // master eq
@@ -847,37 +846,7 @@ masterPlugins.glueClip.x = 0; // glue soft clip off
 //--------------------------------------------------------------
 
 " trigger_script="" trigger_type="4" trigger="1" clock="0" clock_div="4" osc_message="/masterPlugins/set_stez" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
-<SCRIPT name="set_bord()" script="/*
- * master settings
- */
-//--------------------------------------------------------------
-// master eq
-masterPlugins.eqDevice.x = 1; // equaliser on
-
-masterPlugins.eqFilterToggle.x[0] = 1; // eq filter toggle 1 on
-
-masterPlugins.eqFilterToggle.x[1] = 1; // eq filter toggle 2 on
-masterPlugins.eq2Freq.x = 0.181; // eq filter 2 frequency set to 100Hz
-masterPlugins.eq2Gain.x = 0.669; // eq filter 2 gain set to 5dB
-masterPlugins.eq2Q.x = 0.378; // eq filter 2 Q set to 0.71
-
-masterPlugins.eqFilterToggle.x[6] = 1; // eq filter toggle 7 on
-masterPlugins.eq7Freq.x = 0.496; // eq filter 2 frequency set to 812Hz
-masterPlugins.eq7Gain.x = 0.764; // eq filter 2 gain set to 8.00dB
-masterPlugins.eq7Q.x = 0.126; // eq filter 2 Q set to 0.19
-//--------------------------------------------------------------
-// master compressor
-masterPlugins.compDevice.x = 1; // compressor on
-
-masterPlugins.compThresh.x = 0.362; // -19.6dB
-//--------------------------------------------------------------
-// master limiter
-masterPlugins.limDevice.x = 1; // limiter on
-
-masterPlugins.limGain.x = 0.759; // 12.5dB
-//--------------------------------------------------------------
-
-" trigger_script="" trigger_type="4" trigger="1" clock="0" clock_div="4" osc_message="/masterPlugins/set_bord" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
+<SCRIPT name="set_bord()" script="" trigger_script="" trigger_type="4" trigger="1" clock="0" clock_div="4" osc_message="/masterPlugins/set_bord" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
 <SCRIPT name="set_mass()" script="/*
  * master settings
  */
@@ -1030,11 +999,301 @@ masterPlugins.limDevice.x = 0; // limiter off
 //--------------------------------------------------------------
 
 " trigger_script="" trigger_type="4" trigger="1" clock="0" clock_div="4" osc_message="/masterPlugins/set_bail" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
+<SCRIPT name="setMaster_eq()" script="// default settings
+
+//-------------------------------
+// stez 159
+if (masterSwitch.x[0] == 1) 
+{
+
+} 
+//-------------------------------
+// bord 152		
+else if (masterSwitch.x[1] == 1) 
+{ 
+	masterPlugins.eqDevice.x = 1; // equaliser on
+
+	masterPlugins.eqFilterToggle.x[0] = 1; // eq filter toggle 1 on
+
+	masterPlugins.eqFilterToggle.x[1] = 1; // eq filter toggle 2 on
+	masterPlugins.eq2Freq.x = 0.181; // eq filter 2 frequency set to 100Hz
+	masterPlugins.eq2Gain.x = 0.669; // eq filter 2 gain set to 5dB
+	masterPlugins.eq2Q.x = 0.378; // eq filter 2 Q set to 0.71
+
+	masterPlugins.eqFilterToggle.x[6] = 1; // eq filter toggle 7 on
+	masterPlugins.eq7Freq.x = 0.496; // eq filter 7 frequency set to 812Hz
+	masterPlugins.eq7Gain.x = 0.764; // eq filter 7 gain set to 8.00dB
+	masterPlugins.eq7Q.x = 0.126; // eq filter 7 Q set to 0.19
+} 
+//-------------------------------
+// mass 145
+else if (masterSwitch.x[2] == 1) 
+{ 
+
+} 
+//-------------------------------
+// wake 132
+else if (masterSwitch.x[3] == 1) 
+{ 
+
+} 
+//-------------------------------
+// dust 123
+else if (masterSwitch.x[4] == 1) 
+{
+
+} 
+//-------------------------------
+// bail 118
+else if (masterSwitch.x[5] == 1) 
+{ 
+
+} 
+//-------------------------------
+// tone 114
+else if (masterSwitch.x[6] == 1) 
+{ 
+
+} 
+//-------------------------------
+" trigger_script="" trigger_type="4" trigger="1" clock="0" clock_div="4" osc_message="/masterPlugins/setMaster_eq" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
+<SCRIPT name="setMaster_glue()" script="// default settings
+
+//-------------------------------
+// stez 159
+if (masterSwitch.x[0] == 1) 
+{
+
+} 
+//-------------------------------
+// bord 152		
+else if (masterSwitch.x[1] == 1) 
+{ 
+
+} 
+//-------------------------------
+// mass 145
+else if (masterSwitch.x[2] == 1) 
+{ 
+
+} 
+//-------------------------------
+// wake 132
+else if (masterSwitch.x[3] == 1) 
+{ 
+
+} 
+//-------------------------------
+// dust 123
+else if (masterSwitch.x[4] == 1) 
+{
+
+} 
+//-------------------------------
+// bail 118
+else if (masterSwitch.x[5] == 1) 
+{ 
+
+} 
+//-------------------------------
+// tone 114
+else if (masterSwitch.x[6] == 1) 
+{ 
+
+} 
+//-------------------------------
+" trigger_script="" trigger_type="4" trigger="1" clock="0" clock_div="4" osc_message="/masterPlugins/setMaster_glue" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
+<SCRIPT name="setMaster_comp()" script="// default settings
+
+//-------------------------------
+// stez 159
+if (masterSwitch.x[0] == 1) 
+{
+
+} 
+//-------------------------------
+// bord 152		
+else if (masterSwitch.x[1] == 1) 
+{ 
+	masterPlugins.compDevice.x = 1; // compressor on
+	masterPlugins.compThresh.x = 0.362; // -19.6dB
+} 
+//-------------------------------
+// mass 145
+else if (masterSwitch.x[2] == 1) 
+{ 
+
+} 
+//-------------------------------
+// wake 132
+else if (masterSwitch.x[3] == 1) 
+{ 
+
+} 
+//-------------------------------
+// dust 123
+else if (masterSwitch.x[4] == 1) 
+{
+
+} 
+//-------------------------------
+// bail 118
+else if (masterSwitch.x[5] == 1) 
+{ 
+
+} 
+//-------------------------------
+// tone 114
+else if (masterSwitch.x[6] == 1) 
+{ 
+
+} 
+//-------------------------------
+" trigger_script="" trigger_type="4" trigger="1" clock="0" clock_div="4" osc_message="/masterPlugins/setMaster_comp" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
+<SCRIPT name="setMaster_multi()" script="// default settings
+
+//-------------------------------
+// stez 159
+if (masterSwitch.x[0] == 1) 
+{
+
+} 
+//-------------------------------
+// bord 152		
+else if (masterSwitch.x[1] == 1) 
+{ 
+
+} 
+//-------------------------------
+// mass 145
+else if (masterSwitch.x[2] == 1) 
+{ 
+
+} 
+//-------------------------------
+// wake 132
+else if (masterSwitch.x[3] == 1) 
+{ 
+
+} 
+//-------------------------------
+// dust 123
+else if (masterSwitch.x[4] == 1) 
+{
+
+} 
+//-------------------------------
+// bail 118
+else if (masterSwitch.x[5] == 1) 
+{ 
+
+} 
+//-------------------------------
+// tone 114
+else if (masterSwitch.x[6] == 1) 
+{ 
+
+} 
+//-------------------------------
+" trigger_script="" trigger_type="4" trigger="1" clock="0" clock_div="4" osc_message="/masterPlugins/setMaster_multi" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
+<SCRIPT name="setMaster_sat()" script="// default settings
+
+//-------------------------------
+// stez 159
+if (masterSwitch.x[0] == 1) 
+{
+
+} 
+//-------------------------------
+// bord 152		
+else if (masterSwitch.x[1] == 1) 
+{ 
+
+} 
+//-------------------------------
+// mass 145
+else if (masterSwitch.x[2] == 1) 
+{ 
+
+} 
+//-------------------------------
+// wake 132
+else if (masterSwitch.x[3] == 1) 
+{ 
+
+} 
+//-------------------------------
+// dust 123
+else if (masterSwitch.x[4] == 1) 
+{
+
+} 
+//-------------------------------
+// bail 118
+else if (masterSwitch.x[5] == 1) 
+{ 
+
+} 
+//-------------------------------
+// tone 114
+else if (masterSwitch.x[6] == 1) 
+{ 
+
+} 
+//-------------------------------
+" trigger_script="" trigger_type="4" trigger="1" clock="0" clock_div="4" osc_message="/masterPlugins/setMaster_sat" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
+<SCRIPT name="setMaster_lim()" script="// default settings
+
+//-------------------------------
+// stez 159
+if (masterSwitch.x[0] == 1) 
+{
+
+} 
+//-------------------------------
+// bord 152		
+else if (masterSwitch.x[1] == 1) 
+{ 
+	masterPlugins.limDevice.x = 1; // limiter on
+	masterPlugins.limGain.x = 0.759; // 12.5dB
+} 
+//-------------------------------
+// mass 145
+else if (masterSwitch.x[2] == 1) 
+{ 
+
+} 
+//-------------------------------
+// wake 132
+else if (masterSwitch.x[3] == 1) 
+{ 
+
+} 
+//-------------------------------
+// dust 123
+else if (masterSwitch.x[4] == 1) 
+{
+
+} 
+//-------------------------------
+// bail 118
+else if (masterSwitch.x[5] == 1) 
+{ 
+
+} 
+//-------------------------------
+// tone 114
+else if (masterSwitch.x[6] == 1) 
+{ 
+
+} 
+//-------------------------------
+" trigger_script="" trigger_type="4" trigger="1" clock="0" clock_div="4" osc_message="/masterPlugins/setMaster_lim" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
 </WINDOW>
 </WINDOW>
 <WINDOW class="JAZZINTERFACE" text="menu" x="0" y="0" width="568" height="276" id="3" state="0" group="0" font="tahoma,11,0" >
 <WINDOW class="Switches" text="masterSwitch" x="23" y="18" width="227" height="225" id="4" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="1" kbmouse_target="-2" capture="1" color="865343,1596013" column="2" label="0" multicolor="1" multilabel="1" paint="1" radio="1" row="5">
-<PARAM name="x=" value="0.000000,0.000000,0.000000,1.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/masterSwitch/x" midi_target="1" midi_trigger="1" midi_message="0xB3,0xB3,21,27" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<PARAM name="x=" value="0.000000,0.000000,0.000000,0.000000,0.000000,1.000000,0.000000,0.000000,0.000000,0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/masterSwitch/x" midi_target="1" midi_trigger="1" midi_message="0xB3,0xB3,21,27" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 <VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/masterSwitch/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 <SCRIPT name="setLabels()" script="// assign menu tune labels
 setattribute
