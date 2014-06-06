@@ -779,29 +779,13 @@ if (masterSwitch.x[1] == 1)
 <VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/masterPlugins/limDevice/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 </WINDOW>
 </WINDOW>
-<SCRIPT name="setMaster()" script="decl i; // index counter for loop
-//-------------------------------------------------------------
-/*
- * master default settings
- */
+<SCRIPT name="setMaster_eq()" script="// default settings
 masterPlugins.eqDevice.x = 0; // equaliser off
-masterPlugins.glueDevice.x = 0; // glue compressor off
-masterPlugins.compDevice.x = 0; // compressor off
-masterPlugins.multiDevice.x = 0; // multiband off
-masterPlugins.satDevice.x = 0; // saturator off
-masterPlugins.limDevice.x = 0; // limiter on
-
-// eqFilterToggles - default is to switch them all off
-for (i=0; i<8; i++) { masterPlugins.eqFilterToggle.x[i] = 0; } 
+
+decl i; // index counter for loop
+for (i=0; i<8; i++) { masterPlugins.eqFilterToggle.x[i] = 0; } // switch off all filters
 masterPlugins.adaptQ.x = 1; // turn on adaptQ
 masterPlugins.eqGain.x = 0.5; // set gain to 0.0dB
-//-------------------------------------------------------------
-
-
-
-" trigger_script="masterSwitch.x" trigger_type="0" trigger="1" clock="0" clock_div="4" osc_message="/masterPlugins/setMaster" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
-<SCRIPT name="setMaster_eq()" script="// default settings
-
 //-------------------------------
 // stez 159
 if (masterSwitch.x[0] == 1) 
@@ -837,18 +821,6 @@ else if (masterSwitch.x[1] == 1)
 	masterPlugins.eq7Q.x = 0.126; // eq filter 7 Q set to 0.19
 } 
 //-------------------------------
-// mass 145
-else if (masterSwitch.x[2] == 1) 
-{ 
-
-} 
-//-------------------------------
-// wake 132
-else if (masterSwitch.x[3] == 1) 
-{ 
-
-} 
-//-------------------------------
 // dust 123
 else if (masterSwitch.x[4] == 1) 
 {
@@ -879,7 +851,7 @@ else if (masterSwitch.x[6] == 1)
 //-------------------------------
 " trigger_script="masterSwitch.x" trigger_type="0" trigger="1" clock="0" clock_div="4" osc_message="/masterPlugins/setMaster_eq" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
 <SCRIPT name="setMaster_glue()" script="// default settings
-
+masterPlugins.glueDevice.x = 0; // glue compressor off
 //-------------------------------
 // stez 159
 if (masterSwitch.x[0] == 1) 
@@ -894,24 +866,6 @@ if (masterSwitch.x[0] == 1)
 	masterPlugins.glueRange.x = 0.50; // glue range = 10dB
 	masterPlugins.glueDryWet.x = 0.62; // glue dry/wet = 62%
 	masterPlugins.glueClip.x = 0; // glue soft clip off
-} 
-//-------------------------------
-// bord 152		
-else if (masterSwitch.x[1] == 1) 
-{ 
-
-} 
-//-------------------------------
-// mass 145
-else if (masterSwitch.x[2] == 1) 
-{ 
-
-} 
-//-------------------------------
-// wake 132
-else if (masterSwitch.x[3] == 1) 
-{ 
-
 } 
 //-------------------------------
 // dust 123
@@ -952,16 +906,10 @@ else if (masterSwitch.x[6] == 1)
 //-------------------------------
 " trigger_script="masterSwitch.x" trigger_type="0" trigger="1" clock="0" clock_div="4" osc_message="/masterPlugins/setMaster_glue" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
 <SCRIPT name="setMaster_comp()" script="// default settings
-
-//-------------------------------
-// stez 159
-if (masterSwitch.x[0] == 1) 
-{
-
-} 
+masterPlugins.compDevice.x = 0; // compressor off
 //-------------------------------
 // bord 152		
-else if (masterSwitch.x[1] == 1) 
+if (masterSwitch.x[1] == 1) 
 { 
 	masterPlugins.compDevice.x = 1; // compressor on
 	masterPlugins.compThresh.x = 0.362; // -19.6dB
@@ -981,48 +929,13 @@ else if (masterSwitch.x[3] == 1)
 	masterPlugins.compThresh.x = 0.44; // -17.0dB
 } 
 //-------------------------------
-// dust 123
-else if (masterSwitch.x[4] == 1) 
-{
 
-} 
-//-------------------------------
-// bail 118
-else if (masterSwitch.x[5] == 1) 
-{ 
-
-} 
-//-------------------------------
-// tone 114
-else if (masterSwitch.x[6] == 1) 
-{ 
-
-} 
-//-------------------------------
 " trigger_script="masterSwitch.x" trigger_type="0" trigger="1" clock="0" clock_div="4" osc_message="/masterPlugins/setMaster_comp" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
 <SCRIPT name="setMaster_multi()" script="// default settings
-
-//-------------------------------
-// stez 159
-if (masterSwitch.x[0] == 1) 
-{
-
-} 
-//-------------------------------
-// bord 152		
-else if (masterSwitch.x[1] == 1) 
-{ 
-
-} 
-//-------------------------------
-// mass 145
-else if (masterSwitch.x[2] == 1) 
-{ 
-
-} 
+masterPlugins.multiDevice.x = 0; // multiband off
 //-------------------------------
 // wake 132
-else if (masterSwitch.x[3] == 1) 
+if (masterSwitch.x[3] == 1) 
 { 
 	masterPlugins.multiDevice.x = 1; // multiband on
 
@@ -1067,67 +980,21 @@ else if (masterSwitch.x[4] == 1)
 	masterPlugins.multiMasterOut.x = 0.543; // 2.0dB
 } 
 //-------------------------------
-// bail 118
-else if (masterSwitch.x[5] == 1) 
-{ 
 
-} 
-//-------------------------------
-// tone 114
-else if (masterSwitch.x[6] == 1) 
-{ 
-
-} 
-//-------------------------------
 " trigger_script="masterSwitch.x" trigger_type="0" trigger="1" clock="0" clock_div="4" osc_message="/masterPlugins/setMaster_multi" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
 <SCRIPT name="setMaster_sat()" script="// default settings
-
-//-------------------------------
-// stez 159
-if (masterSwitch.x[0] == 1) 
-{
-
-} 
-//-------------------------------
-// bord 152		
-else if (masterSwitch.x[1] == 1) 
-{ 
-
-} 
-//-------------------------------
-// mass 145
-else if (masterSwitch.x[2] == 1) 
-{ 
-
-} 
-//-------------------------------
-// wake 132
-else if (masterSwitch.x[3] == 1) 
-{ 
-
-} 
+masterPlugins.satDevice.x = 0; // saturator off
 //-------------------------------
 // dust 123
-else if (masterSwitch.x[4] == 1) 
+if (masterSwitch.x[4] == 1) 
 {
 	masterPlugins.satDevice.x = 1; // saturator on
 } 
 //-------------------------------
-// bail 118
-else if (masterSwitch.x[5] == 1) 
-{ 
 
-} 
-//-------------------------------
-// tone 114
-else if (masterSwitch.x[6] == 1) 
-{ 
-
-} 
-//-------------------------------
 " trigger_script="masterSwitch.x" trigger_type="0" trigger="1" clock="0" clock_div="4" osc_message="/masterPlugins/setMaster_sat" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
 <SCRIPT name="setMaster_lim()" script="// default settings
-
+masterPlugins.limDevice.x = 0; // limiter off
 //-------------------------------
 // stez 159
 if (masterSwitch.x[0] == 1) 
@@ -1155,12 +1022,6 @@ else if (masterSwitch.x[3] == 1)
 { 
 	masterPlugins.limDevice.x = 1; // limiter on
 	masterPlugins.limGain.x = 0.71; // 10.0dB
-} 
-//-------------------------------
-// dust 123
-else if (masterSwitch.x[4] == 1) 
-{
-
 } 
 //-------------------------------
 // bail 118
