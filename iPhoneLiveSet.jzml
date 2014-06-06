@@ -465,7 +465,7 @@ if (masterSwitch.x[1] == 1)
 " trigger_script="masterSwitch.x" trigger_type="0" trigger="1" clock="0" clock_div="4" osc_message="/beatPlugins/set_beat_multi" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
 </WINDOW>
 </WINDOW>
-<WINDOW class="JAZZINTERFACE" text="master" x="0" y="0" width="568" height="276" id="2" state="1" group="0" font="tahoma,11,0" >
+<WINDOW class="JAZZINTERFACE" text="master" x="0" y="0" width="568" height="276" id="2" state="0" group="0" font="tahoma,11,0" >
 <WINDOW class="Container" text="masterPlugins" x="10" y="10" width="551" height="258" id="3" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="1596013" label="1" tabbar="1" meta="1">
 <WINDOW class="Tab" text="eq" x="0" y="0" width="535" height="210" id="4" state="0" group="0" font="tahoma,11,0" >
 <WINDOW class="CustomButton" text="eqDevice" x="11" y="153" width="48" height="48" id="4" state="241" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="865343,1596013" label_off="off" label_on="on" outline="1">
@@ -767,7 +767,7 @@ if (masterSwitch.x[1] == 1)
 </WINDOW>
 <WINDOW class="Tab" text="limiter" x="0" y="0" width="535" height="210" id="2" state="0" group="0" font="tahoma,11,0" >
 <WINDOW class="Knob" text="limGain" x="18" y="100" width="65" height="93" id="2" state="5" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="8344349,5141375" cursor="0" grid="0" grid_steps="1" label="1" mode="0" physic="1" precision="3" type="0" unit="" value="1">
-<PARAM name="x=" value="0.710000" send="17" osc_target="0" osc_trigger="1" osc_message="/masterPlugins/limGain/x" midi_target="0" midi_trigger="1" midi_message="0xB1,0xB1,70,70" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<PARAM name="x=" value="1.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/masterPlugins/limGain/x" midi_target="0" midi_trigger="1" midi_message="0xB1,0xB1,70,70" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 <PARAM name="z=" value="0.000000" send="16" osc_target="0" osc_trigger="1" osc_message="/masterPlugins/limGain/z" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 <VARIABLE name="value=x" send="0" osc_target="0" osc_trigger="1" osc_message="/masterPlugins/limGain/value" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 <VARIABLE name="attraction=1" send="0" osc_target="0" osc_trigger="1" osc_message="/masterPlugins/limGain/attraction" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
@@ -775,7 +775,7 @@ if (masterSwitch.x[1] == 1)
 <VARIABLE name="speed=1" send="0" osc_target="0" osc_trigger="1" osc_message="/masterPlugins/limGain/speed" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 </WINDOW>
 <WINDOW class="CustomButton" text="limDevice" x="18" y="13" width="48" height="48" id="3" state="241" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" behavior="0" bitmap="0,0" capture="1" color="865343,1596013" label_off="off" label_on="on" outline="1">
-<PARAM name="x=" value="0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/masterPlugins/limDevice/x" midi_target="0" midi_trigger="1" midi_message="0xB1,0xB1,71,71" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<PARAM name="x=" value="1.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/masterPlugins/limDevice/x" midi_target="0" midi_trigger="1" midi_message="0xB1,0xB1,71,71" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 <VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/masterPlugins/limDevice/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 </WINDOW>
 </WINDOW>
@@ -1055,9 +1055,9 @@ else if (masterSwitch.x[6] == 1)
 " trigger_script="masterSwitch.x" trigger_type="0" trigger="1" clock="0" clock_div="4" osc_message="/masterPlugins/setMaster_lim" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
 </WINDOW>
 </WINDOW>
-<WINDOW class="JAZZINTERFACE" text="menu" x="0" y="0" width="568" height="276" id="3" state="0" group="0" font="tahoma,11,0" >
+<WINDOW class="JAZZINTERFACE" text="menu" x="0" y="0" width="568" height="276" id="3" state="1" group="0" font="tahoma,11,0" >
 <WINDOW class="Switches" text="masterSwitch" x="23" y="18" width="227" height="225" id="4" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="1" kbmouse_target="-2" capture="1" color="865343,1596013" column="2" label="0" multicolor="1" multilabel="1" paint="1" radio="1" row="5">
-<PARAM name="x=" value="0.000000,0.000000,0.000000,0.000000,0.000000,1.000000,0.000000,0.000000,0.000000,0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/masterSwitch/x" midi_target="1" midi_trigger="1" midi_message="0xB3,0xB3,21,27" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<PARAM name="x=" value="0.000000,0.000000,0.000000,0.000000,0.000000,1.000000,0.000000,0.000000,0.000000,0.000000" send="17" osc_target="0" osc_trigger="1" osc_message="/masterSwitch/x" midi_target="1" midi_trigger="1" midi_message="0xB3,0xB3,21,30" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 <VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/masterSwitch/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
 <SCRIPT name="setLabels()" script="// assign menu tune labels
 setattribute
